@@ -1,3 +1,9 @@
+# install instructions
+# install pytorch
+pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116 \
+
+# install Detectron2
+python -m pip install 'git+https://github.com/facebookresearch/detectron2.git' --user
 # VICOROB DBT Challenge participation
 
 Participation on the DBT Challenge http://spie-aapm-nci-dair.westus2.cloudapp.azure.com/competitions/4 from the VICOROB research group (University of Girona, Spain). 
